@@ -17,4 +17,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           upstream-repository: https://github.com/OJ/gobuster
-          upstream-branch: master
+          upstream-tag: 'v\d+\.\d+\.\d+'
