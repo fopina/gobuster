@@ -18,3 +18,4 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
           upstream-repository: https://github.com/OJ/gobuster
+          upstream-branch: master
